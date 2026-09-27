@@ -1,0 +1,420 @@
+@font-face {
+    font-family: "Roboto Serif";
+    src: url(./RobotoSerif-VariableFont_GRAD\,opsz\,wdth\,wght.ttf);
+}
+
+@font-face {
+    font-family: "DM Sans";
+    src: url(./DMSans-VariableFont_opsz\,wght.ttf);
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+header {
+    background-color: rgb(255, 255, 255);
+}
+
+.navbar {
+    padding: 25px 294px 30px 226px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.company-name {
+    font-size: 30px;
+    font-weight: 600;
+    font-family: "Roboto Serif";
+    color: #0C0C0CE5;
+    margin-left: 50px;
+    margin-top: -40px;
+}
+
+.navigation {
+    display: flex;
+    font-size: 20px;
+    font-weight: 400;
+    gap: 40px;
+    margin-left: -90px;
+    margin-top: 11px;
+}
+
+.navigation a {
+    color: #0C0C0CE5;
+    font-family: "DM Sans";
+}
+
+.button {
+    position: absolute;
+    width: 139px;
+    height: 47px;
+    background-color: #0C0C0CE5;
+    border-radius: 23px;
+    margin-left: -147px;
+    margin-top: -19px;
+    align-items: center;
+    display: flex;
+    padding: 12px 15px;
+}
+
+.button p {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "DM Sans";
+    color: #FBFBFB;
+    margin-left: 3px;
+}
+
+.main_image {
+    margin-left: 65px;
+    margin-top: 6px;
+}
+
+.boxes {
+    margin-left: 237px;
+    margin-top: -47px;
+    display: flex;
+    gap: 45px;
+}
+
+.box1 {
+    width: 188px;
+    height: 97px;
+    background-color: #0C0C0C;
+    border-radius: 15px;
+    padding: 20px 30px;
+}
+
+.box-question1 {
+    font-size: 20px;
+    font-weight: 600;
+    font-family: "Roboto Serif";
+    color: #FFFFFF;
+}
+
+.box-answer1 {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "DM Sans";
+    color: #FFFFFF;
+    margin-top: 10px;
+}
+
+.box2 {
+    width: 253px;
+    height: 97px;
+    background-color: #0C0C0C;
+    border-radius: 15px;
+    padding: 20px 30px;
+}
+
+.box3 {
+    width: 203px;
+    height: 97px;
+    background-color: #0C0C0C;
+    border-radius: 15px;
+    padding: 20px 30px;
+}
+
+.box4 {
+    width: 279px;
+    height: 97px;
+    background-color: #0C0C0C;
+    border-radius: 15px;
+    padding: 20px 30px;
+}
+
+.tactics {
+    margin-top: 120px;
+}
+
+.title1 {
+    font-size: 20px;
+    font-weight: 600;
+    font-family: "Roboto Serif";
+    color: #0C0C0C;
+    margin-left: 65px;
+}
+
+.text1 {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "DM Sans";
+    color: #0C0C0C;
+    margin-left: 65px;
+    margin-top: 24px;
+}
+
+.tactic2 {
+    margin-top: 48px;
+}
+
+.extra-text1 {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "DM Sans";
+    color: #0C0C0C;
+    margin-left: 65px;
+    margin-top: 32px;
+}
+
+.tactic3 {
+    margin-top: 48px;
+}
+
+.extra-text2 {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "DM Sans";
+    color: #0C0C0C;
+    margin-left: 65px;
+    margin-top: 24px;
+}
+
+.images {
+    display: flex;
+    gap: 74px;
+    margin-left: 60px;
+    margin-top: 100px;
+}
+
+.text_projects {
+    font-size: 64px;
+    font-weight: 600;
+    font-family: "Roboto Serif";
+    color: #0C0C0C;
+    margin-left: 510px;
+    margin-top: 120px;
+}
+
+.cards {
+    display: flex;
+    gap: 47px;
+    margin-left: 60px;
+    margin-top: 100px;
+}
+
+.card {
+    width: 442px;
+    height: 534px;
+}
+
+.card-name {
+    font-size: 30px;
+    font-weight: 600;
+    font-family: "Roboto Serif";
+    margin-top: 14px;
+}
+
+.card-info {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "DM Sans";
+    color: #121212E5;
+    margin-top: 10px;
+}
+
+.card1 {
+    width: 422px;
+    height: 534px;
+}
+
+footer {
+    height: 564px;
+    background-color: #0C0C0C;
+    margin-top: 120px;
+}
+
+.footer-section1 {
+    margin-left: 60px;
+    padding: 60px 0px 0px 0px;  
+}
+
+.company-name-footer {
+    font-size: 38px;
+    font-weight: 600;
+    font-family: "Roboto Serif";
+    color: #FFFFFF;
+    margin-left: 53px;
+    margin-top: -45px;
+}
+
+.company-info {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "DM Sans";
+    color: #FFFFFF;
+    margin-top: 25px;
+}
+
+.pages {
+    margin-left: 458px;
+    margin-top: -140px;
+}
+
+.text_pages {
+    font-size: 20px;
+    font-weight: 600;
+    font-family: "Roboto Serif";
+    color: #FFFFFF;
+    margin-bottom: 25px;
+}
+
+.navigation-pages {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.navigation-pages a {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "DM Sans";
+    color: #F4F4F4c0;
+}
+
+.utility-pages {
+    margin-left: 700px;
+    margin-top: -253px;
+}
+
+.text_utility-pages {
+    font-size: 20px;
+    font-weight: 600;
+    font-family: "Roboto Serif";
+    color: #FFFFFF;
+    margin-bottom: 25px;
+}
+
+.navigation-utility-pages {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.navigation-utility-pages a {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "DM Sans";
+    color: #F4F4F4c0;
+}
+
+.subscribe-section {
+    display: flex;
+    flex-direction: column;
+    margin-left: 968px;
+    margin-top: -253px;
+}
+
+.text_subscribe {
+    font-size: 20px;
+    font-weight: 600;
+    font-family: "Roboto Serif";
+    color: #FFFFFF;
+    margin-bottom: 25px;
+}
+
+.input_for-email {
+    width: 433px;
+    height: 67px;
+    background-color: #FFFFFF;
+    border: 0px;
+    border-radius: 100px;
+
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "DM Sans";
+    padding-left: 23px;
+}
+
+.button-subscribe {
+    width: 118px;
+    height: 47px;
+}
+
+.button1 {
+    width: 118px;
+    height: 47px;
+    background-color: #0C0C0CE5;
+    border-radius: 20px;
+    padding: 11px 17px;
+    margin-left: 304px;
+    margin-top: -57px;
+}
+
+.button1 p {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "DM Sans";
+    color: #FBFBFB;
+}
+
+.line {
+    margin-top: 240px;
+}
+
+.footer-section2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 181px;
+}
+
+.designer-box {
+    width: 211px;
+    height: 60px;
+    margin-left: 60px;
+    margin-top: 30px;
+}
+
+.box-name {
+    font-size: 20px;
+    font-weight: 600;
+    font-family: "Roboto Serif";
+    color: #F4F4F4;
+    margin-bottom: 16px;
+}
+
+.box-info {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "DM Sans";
+    color: #F4F4F4;
+}
+
+.box-info a {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "DM Sans";
+    color: #F4F4F4;
+}
+
+.contact-box {
+    width: 119px;
+    height: 60px;
+    margin-top: 30px;
+}
+
+.address-box {
+    width: 319px;
+    height: 60px;
+    margin-top: 30px;
+}
+
+.social-media {
+    display: flex;
+    gap: 30px;
+    margin-top: 34px;
+}
